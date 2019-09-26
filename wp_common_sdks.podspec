@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'wp_common_sdks/Classes/**/*'
   
   s.subspec 'category' do |ss|
-    ss.source_files = 'wp_common_sdks/Classes/category.{h,m}'
+    ss.source_files = 'wp_common_sdks/Classes/category/**/*'
     #ss.public_header_files = 'AFNetworking/AFSecurityPolicy.h'
     #ss.frameworks = 'Security'
   end
