@@ -29,8 +29,23 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'wp_common_sdks/Classes/**/*'
+  s.source_files = 'wp_common_sdks/Classes/common_center.h'
+  
+  s.subspec 'category' do |ss|
+    ss.source_files = 'wp_common_sdks/category.{h,m}'
+    #ss.public_header_files = 'AFNetworking/AFSecurityPolicy.h'
+    #ss.frameworks = 'Security'
+  end
+  s.subspec 'define' do |ss|
+    ss.source_files = 'wp_common_sdks/define.{h,m}'
+    #ss.public_header_files = 'AFNetworking/AFSecurityPolicy.h'
+    #ss.frameworks = 'Security'
+  end
+  s.subspec 'subClass' do |ss|
+    ss.source_files = 'wp_common_sdks/subClass.{h,m}'
+    #ss.public_header_files = 'AFNetworking/AFSecurityPolicy.h'
+    #ss.frameworks = 'Security'
+  end
   
   # s.resource_bundles = {
   #   'wp_common_sdks' => ['wp_common_sdks/Assets/*.png']
