@@ -32,24 +32,24 @@ TODO: Add long description of the pod here.
   s.source_files = 'wp_common_sdks/Classes/common_center.h'
   
   s.subspec 'category' do |ss|
-    ss.source_files = 'wp_common_sdks/category.{h,m}'
+    ss.source_files = 'wp_common_sdks/Classes/category.{h,m}'
     #ss.public_header_files = 'AFNetworking/AFSecurityPolicy.h'
     #ss.frameworks = 'Security'
   end
   s.subspec 'define' do |ss|
-    ss.source_files = 'wp_common_sdks/define.{h,m}'
+    ss.source_files = 'wp_common_sdks/Classes/define.{h,m}'
     #ss.public_header_files = 'AFNetworking/AFSecurityPolicy.h'
     #ss.frameworks = 'Security'
   end
   s.subspec 'subClass' do |ss|
-    ss.source_files = 'wp_common_sdks/subClass.{h,m}'
+    ss.source_files = 'wp_common_sdks/Classes/subClass.{h,m}'
     #ss.public_header_files = 'AFNetworking/AFSecurityPolicy.h'
     #ss.frameworks = 'Security'
   end
   
-  # s.resource_bundles = {
-  #   'wp_common_sdks' => ['wp_common_sdks/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'wp_common_sdks' => ['wp_common_sdks/Classes/subClass/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
