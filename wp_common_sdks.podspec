@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.source_files = 'wp_common_sdks/Classes/common_center.h'
+  s.source_files = 'wp_common_sdks/Classes/**/*'
   
   s.subspec 'category' do |ss|
     ss.source_files = 'wp_common_sdks/Classes/category.{h,m}'
