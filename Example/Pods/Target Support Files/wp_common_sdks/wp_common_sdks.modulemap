@@ -1,0 +1,6 @@
+framework module wp_common_sdks {
+  umbrella header "wp_common_sdks-umbrella.h"
+
+  export *
+  module * { export * }
+}

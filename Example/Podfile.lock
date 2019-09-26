@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - wp_common_sdks (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - wp_common_sdks (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  wp_common_sdks:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  wp_common_sdks: c1288e39cb57d7f9316bc490ed158af22c6a6139
+
+PODFILE CHECKSUM: 4669ecd4ace8516d10904ab6e1b627d0e9af1ffa
+
+COCOAPODS: 1.8.0

@@ -1,0 +1,1460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02322C59838F094EA96EB59E7D44E7BD /* UILabel+PhotoAndText.h in Headers */ = {isa = PBXBuildFile; fileRef = 57AA802969611D84A3947873F561C6BE /* UILabel+PhotoAndText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08CE37D47D8960D0F283FC10311933BD /* IQButtonBarArrowUp@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = C0BD202C4405D1B63E29D034E31D46E4 /* IQButtonBarArrowUp@2x.png */; };
+		0A4DA4F397A7BF9609C5F646C4A27353 /* UIView+Corners.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BBAAA46E5409F983060CE245347272 /* UIView+Corners.m */; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
+		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
+		1564CDDDC8A8634AA1BD914E4FCF5F7B /* Pods-wp_common_sdks_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDBEB47E77F8385D9A2E97005804CF8A /* Pods-wp_common_sdks_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1612CE0DA073A3641AF604DC8FBB8D96 /* IQNSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = D7F486CAB0B419D40ABEE8440527EE68 /* IQNSArray+Sort.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1901CE32466DF50227326DF1A2230325 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CED1983D2E436E60CA557395B49749 /* IQPreviousNextView.m */; };
+		225378DC8992BB7C0EF45D87EC819FBC /* IQKeyboardManagerConstantsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = AE76F778292371A246DD2C70E259E3BF /* IQKeyboardManagerConstantsInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		269E01165576C4F4BEBD7D057FDE9A3C /* IQButtonBarArrowDown@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 75588D678930CABB39E0CEA18BCE9576 /* IQButtonBarArrowDown@2x.png */; };
+		2D791211B683CA70489E74465023F472 /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 7804CDE419148DE663D48DE813B5AB3F /* IQKeyboardReturnKeyHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
+		30344AA74BC7B16C28B52457B1C5E34B /* IQUIViewController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61717BB9A9C0F5B4BC3603FAEF981457 /* IQUIViewController+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		333676824871C55EA9528E355F27262B /* ZBNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 013B5E677B240E3C8DB4BA96AFAAFFD5 /* ZBNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34915624800FDD4A4B7113321FADBBB7 /* ZBNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2E2355884D36C3A40DFE544FE6ADE1 /* ZBNetworking.m */; };
+		35461A7074E3C3D31E21E417114DE056 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		35CFA428F212007D1C721E7FD9077E3C /* wp_common_sdks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3ECAA8626E7338B856E758B72F0E355 /* wp_common_sdks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		370F7A20FECCE3999A9D52CD1BA7B490 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		3BF103A2E6BE9C6201FDC25D29F2395D /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C45E180752677D692E9CF22D6F2FDA /* NSString+MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C8091B72C312AD4EE0C56E184500DD4 /* FSPageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5E6536001F7020F0ECF0A0B0740F7E /* FSPageContentView.m */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		422BD32EAC96DC851087DB378D6AFE11 /* ZBMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A410AD0BA996872D353B0251830CED90 /* ZBMemoryCache.m */; };
+		433C06F115B161609AC365607CB853A9 /* Pods-wp_common_sdks_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A16148B73378935C3FF70FF78EEDE21C /* Pods-wp_common_sdks_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		438D2379E953A971E5ADD0C19CC13C55 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F286450FC490467433CDE97847CE465 /* IQTitleBarButtonItem.m */; };
+		46EDF097F236AE509EC140626E6D7795 /* IQButtonBarArrowRight@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 57574A6BD77DED9DFCD82A79EC4AFBA5 /* IQButtonBarArrowRight@3x.png */; };
+		47D1492407901FA5FD1AA1C0CD4B85FD /* common_enum.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D759C998969F9F7E860F1DF326E086C /* common_enum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D6DDD70E1CC04156D7D4C3FF1FACAFF /* common_center.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AEFA4F6A25C67B6FB14C3E7D9E9E56C /* common_center.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FD704D95E6FFAACCF6CA2E10FE0A5CA /* ImageResizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B492B835FED714B9827489B425454B57 /* ImageResizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57497576FEF98468BCA7742E3424D342 /* IQKeyboardManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = C853039C3608A6D8D7AF2173846EEAD0 /* IQKeyboardManagerConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59090BFDF0084CD11C426782F8971212 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 803F5021A59AD6CA2E8FD178B11E5899 /* IQKeyboardManager.m */; };
+		5D1862F4809197DB92DA588019C6210E /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CE43428D3A262D6B172863E2DDCABA32 /* IQKeyboardReturnKeyHandler.m */; };
+		609CE85FA71AB3718814B446057DCA20 /* IQUIWindow+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 62A9D1C4231F4DD3F1BE7D62C754FB20 /* IQUIWindow+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61631C226811739A50E96E128D2A9C1E /* UILabel+BaseLines.h in Headers */ = {isa = PBXBuildFile; fileRef = 29060455AD49A8472EF05DB444AA39C9 /* UILabel+BaseLines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6462268C1960A0E617B24CF3F24FC040 /* IQButtonBarArrowLeft@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 542DF80A92C99ECB9F635DC45D568DCF /* IQButtonBarArrowLeft@3x.png */; };
+		65B776DD6C63FE24B9E5BFE780C0ED80 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = A6717D3A6296D857D16A44B0BF9229CA /* IQToolbar.m */; };
+		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
+		6B71A8D02E7352AD318319F691AB0300 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5C9CCFA6EE65D94259137445D6CE81 /* UIColor+Hex.m */; };
+		6BD7A866DC285E7E7D331DC288036B65 /* IQTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = A12B4490B64D5E49BF9551B2A8C1360E /* IQTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D43FD6D487B40C9EA06BDFB7250E91C /* IQButtonBarArrowLeft@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 7916A731DBC87798C2780D1E12A66966 /* IQButtonBarArrowLeft@2x.png */; };
+		6D8DCD22E757F3C34D1D880C49EDAECA /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7A3419C17C95E84F576A0B4EB38A92 /* IQNSArray+Sort.m */; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
+		7239965189AD2563B0F267AAF2D2D0A1 /* IQUIView+IQKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = B526AAD2F5D7DC2C03EDD1AAC0D6EDDB /* IQUIView+IQKeyboardToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74CE8D4F29AD4B5D3664FF4F12204757 /* NSDictionary+EHDisposeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA8385F963B501B19567D108754F4AF /* NSDictionary+EHDisposeData.m */; };
+		79C10CF39EA160921BD1CF5FC6BAAC89 /* common_colorAndFontPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF8910640306ADBE09D03096E9877D4 /* common_colorAndFontPanel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A2F5DE0F5B707A54A01B6E275E9F8B2 /* IQToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F2D9C23B114CF17971C8DFE02C32AA3 /* IQToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D06D1F66884A3087584A7F9E4A63B5E /* wp_common_sdks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C087672A3DE86E9951A9EA4D94C70 /* wp_common_sdks-dummy.m */; };
+		7E68428DF6BB36A53611DF872697D43C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C157A3E35F96C6CB872D415207426D63 /* README.md */; };
+		84D832539C6345F675D63D86B52CFDAB /* ZBDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 614EDE8E478AB3855D17B86574F8D3F5 /* ZBDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86BC07B108D98913707F2C8467287F3C /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A0FB18797ED266F92423AEE7CC9CB6 /* IQUIViewController+Additions.m */; };
+		874F21EC1AB3B2DDE6625A4E63885D29 /* common_api.h in Headers */ = {isa = PBXBuildFile; fileRef = B639461CECED3D92DD14019506FF18E3 /* common_api.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
+		88D6FB9954044D0AE5B4B32773F60B24 /* IQBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = FB57FBAF7F524A91C770C7A4F8889CFD /* IQBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C414D5183640D078002DFA32CE0066A /* FSScrollContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = EB4FB41204324794467C766D7B01EC5F /* FSScrollContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92748897E403087D6DE8B57AB5D3F13F /* UILabel+BaseLines.m in Sources */ = {isa = PBXBuildFile; fileRef = D844939D207447DF7BDF99779CE218F7 /* UILabel+BaseLines.m */; };
+		93632394AC0FF54DE18151F7B255AAD1 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = D0758384B73E2856EC0394DE233B19C1 /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93F439B506B8134FA95EC72215050C0C /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = A89888A017CD03421A9903C6F2FDF40A /* NSString+MD5.m */; };
+		97A585F180967431F5FC8AC4757F85EA /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F4911D4C8DC6A45185719E63F9D887 /* IQUIWindow+Hierarchy.m */; };
+		99468E11EE1403178D39BEB489DF7DC0 /* ZBCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FFAF6FEF87B9003EC2F88490F6A17ACD /* ZBCacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
+		A04B047ED461FFE3C7E6D2C137193CD4 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBE61411DB0E3721DFE5D6F0D7B6B4E /* IQTextView.m */; };
+		A20B516AA4501211E3C8A62641F10533 /* UILabel+PhotoAndText.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CEC1415D7D6EA3356900EC4CF9AD81 /* UILabel+PhotoAndText.m */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
+		A69EA99AD9EB16200C49B02991384A4B /* FSSegmentTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = D5633617C3AC65AF2BA46B69292062E7 /* FSSegmentTitleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A784794235465C7BCAD214B26E0CFA98 /* Pods-wp_common_sdks_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFEC83014F32879658EE48C6AF00945 /* Pods-wp_common_sdks_Tests-dummy.m */; };
+		ACDEAC4DCD6B689E761CD881D6CDECA5 /* ImageResizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4B3ACF1F30C4987A61D08E1FA19593 /* ImageResizer.m */; };
+		AF814D1F441F74746FA114F95BEBA413 /* IQButtonBarArrowDown@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = D63E8763F7BDEDBA0639E6169F996EBA /* IQButtonBarArrowDown@3x.png */; };
+		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		B26733E6AC9D4EF228FD6BB5F13B44DF /* IQUIScrollView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = C4944BAAA68C426ED9857F7E210BF539 /* IQUIScrollView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B696C398AE9E0EBB0D61A141D71797DB /* IQKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 06E4685603703F71BEED6A02D67189A7 /* IQKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BBCA159EA1D04E230C816B75725F7CBD /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D65C6D35FB33655D88800A72B59DB1B1 /* IQBarButtonItem.m */; };
+		C0BAB94A932350CB716CD87ABA484212 /* IQUITextFieldView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFCCE43C4408BC4E56683155F3EB9A7 /* IQUITextFieldView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1EE45F701559A2E8787141BA82E4223 /* ZBLRUManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E0C971368D9F20812E026665CEFEAF9 /* ZBLRUManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C22ECE197AE51C9E2EACFB9B61DB743B /* IQPreviousNextView.h in Headers */ = {isa = PBXBuildFile; fileRef = D4469EE660F1183E079D6858EE2EEB2A /* IQPreviousNextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4668170E5961186453A17F3BEF744F7 /* IQUIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = FBDC4093A3514BC4068FA18A68B69BDB /* IQUIView+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C54ACE957D3DEE8329F7E39F784D7E34 /* FSSegmentTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C89A835B0182EB00B883B2BEA857A35 /* FSSegmentTitleView.m */; };
+		C5C0488EAF438EE5F62BFF47068165DE /* ZBDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C8186006DB5D46E15622CC657131FE /* ZBDiskCache.m */; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D1F0E9E54B127D3F30EABB38D1A743FC /* UIView+Corners.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D4B15A44CF479D15FB1F6A78C2A2A90 /* UIView+Corners.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D507BACDB5A800F75714626D4C5EF2CB /* ZBLRUManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EB846768791B5884B39207836321E9B3 /* ZBLRUManager.m */; };
+		DC575B305A86CE839A7FEC2125041E73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		DD82709752D8311F268BD3D89D04C6C5 /* UIImage+ColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB1A58FC8A90E3ACA28D482D11E068B /* UIImage+ColorImage.m */; };
+		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
+		E1755659193E3F35997C2E63DAD3D3E5 /* ZBMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A967FE96D620984DAC1F158F21D19A /* ZBMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2CC77078F73AB6DBB4E0CB7F0154C2F /* ZBCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E6FC7FE5295C24E004C878911C31D2 /* ZBCacheManager.m */; };
+		E32A46E8DE7D61B0272E8819DFD65FAA /* IQButtonBarArrowUp@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 11A9AF97FA93503A711A7125B76FD400 /* IQButtonBarArrowUp@3x.png */; };
+		E3335763DF67ABCCD4EF6D5BA7C38DD3 /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 2AE89710499D4C08172A87D602402117 /* LICENSE.md */; };
+		E42CFE1C4EF9D4FE12071FECF055C0E0 /* UIImage+ColorImage.h in Headers */ = {isa = PBXBuildFile; fileRef = BD295B6267A71A3786F1184FEA07D755 /* UIImage+ColorImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E54A2BFC83B1AADEE22FDA47D2325E2F /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E1BDF478CD6F884AFFAD2CAABA80F2 /* IQUIView+IQKeyboardToolbar.m */; };
+		E5CC54D11C3EFFD03522D3BEBA5BB609 /* NSDictionary+EHDisposeData.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FF3D2DD0A178F5806B305325042CB28 /* NSDictionary+EHDisposeData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
+		E985988A3B63097BF880C737B05416F6 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 618FC8B9203E4A651A84BF68EEE3B7DA /* IQUIScrollView+Additions.m */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F1EF61A2550DBF6D8A853B13E331C38F /* FSPageContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABD22C07C2C24B3B24BEAF6675AD5DE /* FSPageContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F436EB4B970A9802EA79C3ED652149F6 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DCBA4C989A02A5F2F44195759F52CD /* IQUIView+Hierarchy.m */; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7C86864639EA655C3744535F5548647 /* IQButtonBarArrowRight@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = BA1F8CD0276361A72ACD142E0F7DFB4A /* IQButtonBarArrowRight@2x.png */; };
+		F86AA1B523A3A6B387C7D88D5C6437E9 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C9132C74C6A5405255058AEDBCEF3C7C /* IQUITextFieldView+Additions.m */; };
+		FB7077DB44B48F8760E96D6F9C6F6A62 /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C152198B1A9F082CEA33A36E4F4EFBCD /* IQTitleBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE645EB59A74CB742F7B32D2C6FB89CC /* Pods-wp_common_sdks_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E98E3F8E2D4A57954761C2464FB0E6 /* Pods-wp_common_sdks_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80A734CA4BE336C8274939361C889AB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		E823EAD9B79B30CFB7E8D62EC036B03A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3D824364F2D68B080B4B22F20F443D9;
+			remoteInfo = "Pods-wp_common_sdks_Example";
+		};
+		FA55E2E4F6AB6D862BDE5ABB6D4E361B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E03510651359BAFF984AF07D4AA9981E;
+			remoteInfo = wp_common_sdks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013B5E677B240E3C8DB4BA96AFAAFFD5 /* ZBNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBNetworking.h; sourceTree = "<group>"; };
+		06E4685603703F71BEED6A02D67189A7 /* IQKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		10BBAAA46E5409F983060CE245347272 /* UIView+Corners.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Corners.m"; sourceTree = "<group>"; };
+		11A9AF97FA93503A711A7125B76FD400 /* IQButtonBarArrowUp@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "IQButtonBarArrowUp@3x.png"; sourceTree = "<group>"; };
+		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		1C4B3ACF1F30C4987A61D08E1FA19593 /* ImageResizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ImageResizer.m; sourceTree = "<group>"; };
+		1D759C998969F9F7E860F1DF326E086C /* common_enum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = common_enum.h; sourceTree = "<group>"; };
+		23318BE53D3A9E958A22DB6CA4BDB1A9 /* Pods-wp_common_sdks_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wp_common_sdks_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		26A967FE96D620984DAC1F158F21D19A /* ZBMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBMemoryCache.h; sourceTree = "<group>"; };
+		29060455AD49A8472EF05DB444AA39C9 /* UILabel+BaseLines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+BaseLines.h"; sourceTree = "<group>"; };
+		2AE89710499D4C08172A87D602402117 /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.md; sourceTree = "<group>"; };
+		2E0C971368D9F20812E026665CEFEAF9 /* ZBLRUManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBLRUManager.h; sourceTree = "<group>"; };
+		34FFBF9855516D13E397DEE693576E69 /* Pods-wp_common_sdks_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wp_common_sdks_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		381BB6AAD5A2B1B021B968AB46224246 /* Pods-wp_common_sdks_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wp_common_sdks_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		38A2CEF8A0D9F3DC1549E656D401937C /* wp_common_sdks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = wp_common_sdks.modulemap; sourceTree = "<group>"; };
+		39EE35DDEBCACC469A26804932679B3C /* Pods_wp_common_sdks_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_wp_common_sdks_Tests.framework; path = "Pods-wp_common_sdks_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		3C9C087672A3DE86E9951A9EA4D94C70 /* wp_common_sdks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "wp_common_sdks-dummy.m"; sourceTree = "<group>"; };
+		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		3EBE61411DB0E3721DFE5D6F0D7B6B4E /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		3F286450FC490467433CDE97847CE465 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		3FFEC83014F32879658EE48C6AF00945 /* Pods-wp_common_sdks_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wp_common_sdks_Tests-dummy.m"; sourceTree = "<group>"; };
+		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		44B79551B9D6D807F799C549C7FACCB5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		45FDEFF9157AB0DA024B2CE9AE04088D /* wp_common_sdks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = wp_common_sdks.framework; path = wp_common_sdks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4702649F5C94BC67A2719DABB8D989EF /* wp_common_sdks.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = wp_common_sdks.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4C2E2355884D36C3A40DFE544FE6ADE1 /* ZBNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBNetworking.m; sourceTree = "<group>"; };
+		4D4B15A44CF479D15FB1F6A78C2A2A90 /* UIView+Corners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Corners.h"; sourceTree = "<group>"; };
+		542DF80A92C99ECB9F635DC45D568DCF /* IQButtonBarArrowLeft@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "IQButtonBarArrowLeft@3x.png"; sourceTree = "<group>"; };
+		56C6CB6F4E6AC2A3AF243F599156AA0C /* Pods-wp_common_sdks_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-wp_common_sdks_Tests.modulemap"; sourceTree = "<group>"; };
+		57574A6BD77DED9DFCD82A79EC4AFBA5 /* IQButtonBarArrowRight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "IQButtonBarArrowRight@3x.png"; sourceTree = "<group>"; };
+		575C0F56AF884E89D17AD9E35FBEE991 /* Pods_wp_common_sdks_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_wp_common_sdks_Example.framework; path = "Pods-wp_common_sdks_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57AA802969611D84A3947873F561C6BE /* UILabel+PhotoAndText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+PhotoAndText.h"; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5D39E17F25506ED58E2E9F00A8769D /* Pods-wp_common_sdks_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wp_common_sdks_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5F4468CF524D249D4EAA5594D97F4D22 /* Pods-wp_common_sdks_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-wp_common_sdks_Example.modulemap"; sourceTree = "<group>"; };
+		614EDE8E478AB3855D17B86574F8D3F5 /* ZBDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBDiskCache.h; sourceTree = "<group>"; };
+		61717BB9A9C0F5B4BC3603FAEF981457 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		618FC8B9203E4A651A84BF68EEE3B7DA /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		62A9D1C4231F4DD3F1BE7D62C754FB20 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		6C89A835B0182EB00B883B2BEA857A35 /* FSSegmentTitleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FSSegmentTitleView.m; sourceTree = "<group>"; };
+		6F2D9C23B114CF17971C8DFE02C32AA3 /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		73DCBA4C989A02A5F2F44195759F52CD /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		74397D3D1BE9F61FEA42571C92632BC4 /* Pods-wp_common_sdks_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wp_common_sdks_Tests-Info.plist"; sourceTree = "<group>"; };
+		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		75588D678930CABB39E0CEA18BCE9576 /* IQButtonBarArrowDown@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "IQButtonBarArrowDown@2x.png"; sourceTree = "<group>"; };
+		76C45E180752677D692E9CF22D6F2FDA /* NSString+MD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		7804CDE419148DE663D48DE813B5AB3F /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		7916A731DBC87798C2780D1E12A66966 /* IQButtonBarArrowLeft@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "IQButtonBarArrowLeft@2x.png"; sourceTree = "<group>"; };
+		7A5E494A4269E35BB746F1762D4B050F /* Pods-wp_common_sdks_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wp_common_sdks_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7ABD22C07C2C24B3B24BEAF6675AD5DE /* FSPageContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FSPageContentView.h; sourceTree = "<group>"; };
+		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7F92C847548D793BF5739D530C1C0712 /* Pods-wp_common_sdks_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wp_common_sdks_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7FF3D2DD0A178F5806B305325042CB28 /* NSDictionary+EHDisposeData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+EHDisposeData.h"; sourceTree = "<group>"; };
+		803F5021A59AD6CA2E8FD178B11E5899 /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		885EE1220921F40E2DBE6635024FC0EF /* wp_common_sdks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = wp_common_sdks.xcconfig; sourceTree = "<group>"; };
+		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		8AEFA4F6A25C67B6FB14C3E7D9E9E56C /* common_center.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = common_center.h; path = wp_common_sdks/Classes/common_center.h; sourceTree = "<group>"; };
+		8BA8385F963B501B19567D108754F4AF /* NSDictionary+EHDisposeData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+EHDisposeData.m"; sourceTree = "<group>"; };
+		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8CB1A58FC8A90E3ACA28D482D11E068B /* UIImage+ColorImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorImage.m"; sourceTree = "<group>"; };
+		8E5C9CCFA6EE65D94259137445D6CE81 /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		91771E5796439F6A3194466F50C7FEFC /* Pods-wp_common_sdks_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wp_common_sdks_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		9BFCCE43C4408BC4E56683155F3EB9A7 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A12B4490B64D5E49BF9551B2A8C1360E /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		A16148B73378935C3FF70FF78EEDE21C /* Pods-wp_common_sdks_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-wp_common_sdks_Example-umbrella.h"; sourceTree = "<group>"; };
+		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		A410AD0BA996872D353B0251830CED90 /* ZBMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBMemoryCache.m; sourceTree = "<group>"; };
+		A6717D3A6296D857D16A44B0BF9229CA /* IQToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		A6B65FF136CC09DE86F07BD98DAD07FC /* wp_common_sdks-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "wp_common_sdks-Info.plist"; sourceTree = "<group>"; };
+		A89888A017CD03421A9903C6F2FDF40A /* NSString+MD5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		A9332605C9FDDCC500E930CC84D64EA0 /* Pods-wp_common_sdks_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wp_common_sdks_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A9E1BDF478CD6F884AFFAD2CAABA80F2 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		AB301475B1CAC8B9D09DF7DC5B60D7C1 /* Pods-wp_common_sdks_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wp_common_sdks_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		AD764FBEFD8C9A1DDD5E11197B8EB919 /* Pods-wp_common_sdks_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wp_common_sdks_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE76F778292371A246DD2C70E259E3BF /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		B3ECAA8626E7338B856E758B72F0E355 /* wp_common_sdks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wp_common_sdks-umbrella.h"; sourceTree = "<group>"; };
+		B449A71D498C0CFA12A1676B5FB89747 /* Pods-wp_common_sdks_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wp_common_sdks_Example-Info.plist"; sourceTree = "<group>"; };
+		B492B835FED714B9827489B425454B57 /* ImageResizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ImageResizer.h; sourceTree = "<group>"; };
+		B526AAD2F5D7DC2C03EDD1AAC0D6EDDB /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		B5E6FC7FE5295C24E004C878911C31D2 /* ZBCacheManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBCacheManager.m; sourceTree = "<group>"; };
+		B639461CECED3D92DD14019506FF18E3 /* common_api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = common_api.h; sourceTree = "<group>"; };
+		BA1F8CD0276361A72ACD142E0F7DFB4A /* IQButtonBarArrowRight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "IQButtonBarArrowRight@2x.png"; sourceTree = "<group>"; };
+		BA7A3419C17C95E84F576A0B4EB38A92 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		BD295B6267A71A3786F1184FEA07D755 /* UIImage+ColorImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorImage.h"; sourceTree = "<group>"; };
+		C0BD202C4405D1B63E29D034E31D46E4 /* IQButtonBarArrowUp@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "IQButtonBarArrowUp@2x.png"; sourceTree = "<group>"; };
+		C152198B1A9F082CEA33A36E4F4EFBCD /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		C157A3E35F96C6CB872D415207426D63 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C481BAE0A96E502CA960F822E0172FCB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C4944BAAA68C426ED9857F7E210BF539 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		C6CED1983D2E436E60CA557395B49749 /* IQPreviousNextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IQPreviousNextView.m; sourceTree = "<group>"; };
+		C853039C3608A6D8D7AF2173846EEAD0 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		C9132C74C6A5405255058AEDBCEF3C7C /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		C9A0FB18797ED266F92423AEE7CC9CB6 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		CB5E6536001F7020F0ECF0A0B0740F7E /* FSPageContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FSPageContentView.m; sourceTree = "<group>"; };
+		CBF8910640306ADBE09D03096E9877D4 /* common_colorAndFontPanel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = common_colorAndFontPanel.h; sourceTree = "<group>"; };
+		CE43428D3A262D6B172863E2DDCABA32 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		D0758384B73E2856EC0394DE233B19C1 /* UIColor+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		D0F4911D4C8DC6A45185719E63F9D887 /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		D4469EE660F1183E079D6858EE2EEB2A /* IQPreviousNextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IQPreviousNextView.h; sourceTree = "<group>"; };
+		D5633617C3AC65AF2BA46B69292062E7 /* FSSegmentTitleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FSSegmentTitleView.h; sourceTree = "<group>"; };
+		D63E8763F7BDEDBA0639E6169F996EBA /* IQButtonBarArrowDown@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "IQButtonBarArrowDown@3x.png"; sourceTree = "<group>"; };
+		D65C6D35FB33655D88800A72B59DB1B1 /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		D7F486CAB0B419D40ABEE8440527EE68 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		D844939D207447DF7BDF99779CE218F7 /* UILabel+BaseLines.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+BaseLines.m"; sourceTree = "<group>"; };
+		D9E98E3F8E2D4A57954761C2464FB0E6 /* Pods-wp_common_sdks_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wp_common_sdks_Example-dummy.m"; sourceTree = "<group>"; };
+		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		E4CEC1415D7D6EA3356900EC4CF9AD81 /* UILabel+PhotoAndText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+PhotoAndText.m"; sourceTree = "<group>"; };
+		E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		EB4FB41204324794467C766D7B01EC5F /* FSScrollContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FSScrollContentView.h; sourceTree = "<group>"; };
+		EB846768791B5884B39207836321E9B3 /* ZBLRUManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBLRUManager.m; sourceTree = "<group>"; };
+		ECFAA9EF771FC70156B8302560F727DA /* wp_common_sdks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wp_common_sdks-prefix.pch"; sourceTree = "<group>"; };
+		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		F5C8186006DB5D46E15622CC657131FE /* ZBDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBDiskCache.m; sourceTree = "<group>"; };
+		FB57FBAF7F524A91C770C7A4F8889CFD /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		FBDC4093A3514BC4068FA18A68B69BDB /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		FDBEB47E77F8385D9A2E97005804CF8A /* Pods-wp_common_sdks_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-wp_common_sdks_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FFAF6FEF87B9003EC2F88490F6A17ACD /* ZBCacheManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBCacheManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FC8E3E116BF739A0B4AF332EB86946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35461A7074E3C3D31E21E417114DE056 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53387ECB129BBC9FD1A8B30CC71261CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC575B305A86CE839A7FEC2125041E73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */,
+				14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */,
+				E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */,
+				6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EA0E0C241B8FC97B38E08DB11E77BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370F7A20FECCE3999A9D52CD1BA7B490 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0076A5E80419FC02B28152485AF8F108 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C481BAE0A96E502CA960F822E0172FCB /* LICENSE */,
+				44B79551B9D6D807F799C549C7FACCB5 /* README.md */,
+				4702649F5C94BC67A2719DABB8D989EF /* wp_common_sdks.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		07A88EBD4F2B4B22CCDB06AD6BBB0B40 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E901CBCFB90282445DF0864BC5C25F9E /* IQKeyboardManager.bundle */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0C29FA9FDB84D87912369FBEF62D5129 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				06E4685603703F71BEED6A02D67189A7 /* IQKeyboardManager.h */,
+				803F5021A59AD6CA2E8FD178B11E5899 /* IQKeyboardManager.m */,
+				7804CDE419148DE663D48DE813B5AB3F /* IQKeyboardReturnKeyHandler.h */,
+				CE43428D3A262D6B172863E2DDCABA32 /* IQKeyboardReturnKeyHandler.m */,
+				2F5AA3C3B06805DC16C810C15F672AFA /* Categories */,
+				1CFC9488F42CA475D848BBFE938D048B /* Constants */,
+				52E675492C5162846AE279C10A885DAB /* IQTextView */,
+				D0DB4BD502E667366B1CCD7041527CD9 /* IQToolbar */,
+				07A88EBD4F2B4B22CCDB06AD6BBB0B40 /* Resources */,
+			);
+			name = IQKeyboardManager;
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		106D45138A64C6F2D80D5C6BCAC33387 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				2AE89710499D4C08172A87D602402117 /* LICENSE.md */,
+				C157A3E35F96C6CB872D415207426D63 /* README.md */,
+				0C29FA9FDB84D87912369FBEF62D5129 /* IQKeyboardManager */,
+			);
+			name = IQKeyboardManager;
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		12B38A8B89298934A0AD230EE2D892C4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A6C3E620278EB44E57ED212293A7800 /* Pods-wp_common_sdks_Example */,
+				CDF324531A02B51E1C77661A7BA1E0A8 /* Pods-wp_common_sdks_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		18093B1A72BC24899335F21ADBBC0ADB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2526C750DE66A3F88E75D4BE6B3F6A61 /* wp_common_sdks */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1CFC9488F42CA475D848BBFE938D048B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C853039C3608A6D8D7AF2173846EEAD0 /* IQKeyboardManagerConstants.h */,
+				AE76F778292371A246DD2C70E259E3BF /* IQKeyboardManagerConstantsInternal.h */,
+			);
+			name = Constants;
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		2526C750DE66A3F88E75D4BE6B3F6A61 /* wp_common_sdks */ = {
+			isa = PBXGroup;
+			children = (
+				8AEFA4F6A25C67B6FB14C3E7D9E9E56C /* common_center.h */,
+				718415F16D7AE633DBC91F3237C7D136 /* category */,
+				6B820D63345C1EE6BA1304A444002CB2 /* define */,
+				0076A5E80419FC02B28152485AF8F108 /* Pod */,
+				44429B3F6B7AE3B3CBDB0F3534FEAD85 /* subClass */,
+				9EBDCCA35AF207BC6C24CC9E246D3A13 /* Support Files */,
+			);
+			name = wp_common_sdks;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2F5AA3C3B06805DC16C810C15F672AFA /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D7F486CAB0B419D40ABEE8440527EE68 /* IQNSArray+Sort.h */,
+				BA7A3419C17C95E84F576A0B4EB38A92 /* IQNSArray+Sort.m */,
+				C4944BAAA68C426ED9857F7E210BF539 /* IQUIScrollView+Additions.h */,
+				618FC8B9203E4A651A84BF68EEE3B7DA /* IQUIScrollView+Additions.m */,
+				9BFCCE43C4408BC4E56683155F3EB9A7 /* IQUITextFieldView+Additions.h */,
+				C9132C74C6A5405255058AEDBCEF3C7C /* IQUITextFieldView+Additions.m */,
+				FBDC4093A3514BC4068FA18A68B69BDB /* IQUIView+Hierarchy.h */,
+				73DCBA4C989A02A5F2F44195759F52CD /* IQUIView+Hierarchy.m */,
+				61717BB9A9C0F5B4BC3603FAEF981457 /* IQUIViewController+Additions.h */,
+				C9A0FB18797ED266F92423AEE7CC9CB6 /* IQUIViewController+Additions.m */,
+				62A9D1C4231F4DD3F1BE7D62C754FB20 /* IQUIWindow+Hierarchy.h */,
+				D0F4911D4C8DC6A45185719E63F9D887 /* IQUIWindow+Hierarchy.m */,
+			);
+			name = Categories;
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		34B16E3F9A49144BBED7B588B29949FE /* FSScrollContentViewLib */ = {
+			isa = PBXGroup;
+			children = (
+				7ABD22C07C2C24B3B24BEAF6675AD5DE /* FSPageContentView.h */,
+				CB5E6536001F7020F0ECF0A0B0740F7E /* FSPageContentView.m */,
+				EB4FB41204324794467C766D7B01EC5F /* FSScrollContentView.h */,
+				D5633617C3AC65AF2BA46B69292062E7 /* FSSegmentTitleView.h */,
+				6C89A835B0182EB00B883B2BEA857A35 /* FSSegmentTitleView.m */,
+			);
+			name = FSScrollContentViewLib;
+			path = FSScrollContentViewLib;
+			sourceTree = "<group>";
+		};
+		44429B3F6B7AE3B3CBDB0F3534FEAD85 /* subClass */ = {
+			isa = PBXGroup;
+			children = (
+				34B16E3F9A49144BBED7B588B29949FE /* FSScrollContentViewLib */,
+				106D45138A64C6F2D80D5C6BCAC33387 /* IQKeyboardManager */,
+				FA93D435392B7702398201DBF8A76873 /* ZBNetworking */,
+			);
+			name = subClass;
+			path = wp_common_sdks/Classes/subClass;
+			sourceTree = "<group>";
+		};
+		45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */,
+				418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */,
+				3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */,
+				1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */,
+				746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */,
+				E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		52E675492C5162846AE279C10A885DAB /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				A12B4490B64D5E49BF9551B2A8C1360E /* IQTextView.h */,
+				3EBE61411DB0E3721DFE5D6F0D7B6B4E /* IQTextView.m */,
+			);
+			name = IQTextView;
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		57D91DFE3B66362CD5C8D44D66228E1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				575C0F56AF884E89D17AD9E35FBEE991 /* Pods_wp_common_sdks_Example.framework */,
+				39EE35DDEBCACC469A26804932679B3C /* Pods_wp_common_sdks_Tests.framework */,
+				45FDEFF9157AB0DA024B2CE9AE04088D /* wp_common_sdks.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B820D63345C1EE6BA1304A444002CB2 /* define */ = {
+			isa = PBXGroup;
+			children = (
+				B639461CECED3D92DD14019506FF18E3 /* common_api.h */,
+				CBF8910640306ADBE09D03096E9877D4 /* common_colorAndFontPanel.h */,
+				1D759C998969F9F7E860F1DF326E086C /* common_enum.h */,
+			);
+			name = define;
+			path = wp_common_sdks/Classes/define;
+			sourceTree = "<group>";
+		};
+		718415F16D7AE633DBC91F3237C7D136 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				B492B835FED714B9827489B425454B57 /* ImageResizer.h */,
+				1C4B3ACF1F30C4987A61D08E1FA19593 /* ImageResizer.m */,
+				7FF3D2DD0A178F5806B305325042CB28 /* NSDictionary+EHDisposeData.h */,
+				8BA8385F963B501B19567D108754F4AF /* NSDictionary+EHDisposeData.m */,
+				76C45E180752677D692E9CF22D6F2FDA /* NSString+MD5.h */,
+				A89888A017CD03421A9903C6F2FDF40A /* NSString+MD5.m */,
+				D0758384B73E2856EC0394DE233B19C1 /* UIColor+Hex.h */,
+				8E5C9CCFA6EE65D94259137445D6CE81 /* UIColor+Hex.m */,
+				BD295B6267A71A3786F1184FEA07D755 /* UIImage+ColorImage.h */,
+				8CB1A58FC8A90E3ACA28D482D11E068B /* UIImage+ColorImage.m */,
+				29060455AD49A8472EF05DB444AA39C9 /* UILabel+BaseLines.h */,
+				D844939D207447DF7BDF99779CE218F7 /* UILabel+BaseLines.m */,
+				57AA802969611D84A3947873F561C6BE /* UILabel+PhotoAndText.h */,
+				E4CEC1415D7D6EA3356900EC4CF9AD81 /* UILabel+PhotoAndText.m */,
+				4D4B15A44CF479D15FB1F6A78C2A2A90 /* UIView+Corners.h */,
+				10BBAAA46E5409F983060CE245347272 /* UIView+Corners.m */,
+			);
+			name = category;
+			path = wp_common_sdks/Classes/category;
+			sourceTree = "<group>";
+		};
+		7A6C3E620278EB44E57ED212293A7800 /* Pods-wp_common_sdks_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5F4468CF524D249D4EAA5594D97F4D22 /* Pods-wp_common_sdks_Example.modulemap */,
+				5D5D39E17F25506ED58E2E9F00A8769D /* Pods-wp_common_sdks_Example-acknowledgements.markdown */,
+				91771E5796439F6A3194466F50C7FEFC /* Pods-wp_common_sdks_Example-acknowledgements.plist */,
+				D9E98E3F8E2D4A57954761C2464FB0E6 /* Pods-wp_common_sdks_Example-dummy.m */,
+				7F92C847548D793BF5739D530C1C0712 /* Pods-wp_common_sdks_Example-frameworks.sh */,
+				B449A71D498C0CFA12A1676B5FB89747 /* Pods-wp_common_sdks_Example-Info.plist */,
+				A16148B73378935C3FF70FF78EEDE21C /* Pods-wp_common_sdks_Example-umbrella.h */,
+				381BB6AAD5A2B1B021B968AB46224246 /* Pods-wp_common_sdks_Example.debug.xcconfig */,
+				7A5E494A4269E35BB746F1762D4B050F /* Pods-wp_common_sdks_Example.release.xcconfig */,
+			);
+			name = "Pods-wp_common_sdks_Example";
+			path = "Target Support Files/Pods-wp_common_sdks_Example";
+			sourceTree = "<group>";
+		};
+		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */,
+				716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */,
+				8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */,
+				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				9DD967528FC2F5BD41E45879D4B78BEE /* Core */,
+				45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */,
+				820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		9DD967528FC2F5BD41E45879D4B78BEE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */,
+				13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */,
+				D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */,
+				AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */,
+				88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */,
+				DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */,
+				0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */,
+				8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */,
+				A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */,
+				EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */,
+				E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */,
+				E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */,
+				EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */,
+				AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		9EBDCCA35AF207BC6C24CC9E246D3A13 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38A2CEF8A0D9F3DC1549E656D401937C /* wp_common_sdks.modulemap */,
+				885EE1220921F40E2DBE6635024FC0EF /* wp_common_sdks.xcconfig */,
+				3C9C087672A3DE86E9951A9EA4D94C70 /* wp_common_sdks-dummy.m */,
+				A6B65FF136CC09DE86F07BD98DAD07FC /* wp_common_sdks-Info.plist */,
+				ECFAA9EF771FC70156B8302560F727DA /* wp_common_sdks-prefix.pch */,
+				B3ECAA8626E7338B856E758B72F0E355 /* wp_common_sdks-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/wp_common_sdks";
+			sourceTree = "<group>";
+		};
+		B08E3C82FB1B2C810F6EB3CD7C71E0AA /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				FFAF6FEF87B9003EC2F88490F6A17ACD /* ZBCacheManager.h */,
+				B5E6FC7FE5295C24E004C878911C31D2 /* ZBCacheManager.m */,
+				614EDE8E478AB3855D17B86574F8D3F5 /* ZBDiskCache.h */,
+				F5C8186006DB5D46E15622CC657131FE /* ZBDiskCache.m */,
+				2E0C971368D9F20812E026665CEFEAF9 /* ZBLRUManager.h */,
+				EB846768791B5884B39207836321E9B3 /* ZBLRUManager.m */,
+				26A967FE96D620984DAC1F158F21D19A /* ZBMemoryCache.h */,
+				A410AD0BA996872D353B0251830CED90 /* ZBMemoryCache.m */,
+			);
+			name = Cache;
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DE5752EED0A4C4A430975244947611A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDF324531A02B51E1C77661A7BA1E0A8 /* Pods-wp_common_sdks_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				56C6CB6F4E6AC2A3AF243F599156AA0C /* Pods-wp_common_sdks_Tests.modulemap */,
+				AD764FBEFD8C9A1DDD5E11197B8EB919 /* Pods-wp_common_sdks_Tests-acknowledgements.markdown */,
+				A9332605C9FDDCC500E930CC84D64EA0 /* Pods-wp_common_sdks_Tests-acknowledgements.plist */,
+				3FFEC83014F32879658EE48C6AF00945 /* Pods-wp_common_sdks_Tests-dummy.m */,
+				34FFBF9855516D13E397DEE693576E69 /* Pods-wp_common_sdks_Tests-frameworks.sh */,
+				74397D3D1BE9F61FEA42571C92632BC4 /* Pods-wp_common_sdks_Tests-Info.plist */,
+				FDBEB47E77F8385D9A2E97005804CF8A /* Pods-wp_common_sdks_Tests-umbrella.h */,
+				AB301475B1CAC8B9D09DF7DC5B60D7C1 /* Pods-wp_common_sdks_Tests.debug.xcconfig */,
+				23318BE53D3A9E958A22DB6CA4BDB1A9 /* Pods-wp_common_sdks_Tests.release.xcconfig */,
+			);
+			name = "Pods-wp_common_sdks_Tests";
+			path = "Target Support Files/Pods-wp_common_sdks_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				18093B1A72BC24899335F21ADBBC0ADB /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
+				57D91DFE3B66362CD5C8D44D66228E1A /* Products */,
+				12B38A8B89298934A0AD230EE2D892C4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0DB4BD502E667366B1CCD7041527CD9 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				FB57FBAF7F524A91C770C7A4F8889CFD /* IQBarButtonItem.h */,
+				D65C6D35FB33655D88800A72B59DB1B1 /* IQBarButtonItem.m */,
+				D4469EE660F1183E079D6858EE2EEB2A /* IQPreviousNextView.h */,
+				C6CED1983D2E436E60CA557395B49749 /* IQPreviousNextView.m */,
+				C152198B1A9F082CEA33A36E4F4EFBCD /* IQTitleBarButtonItem.h */,
+				3F286450FC490467433CDE97847CE465 /* IQTitleBarButtonItem.m */,
+				6F2D9C23B114CF17971C8DFE02C32AA3 /* IQToolbar.h */,
+				A6717D3A6296D857D16A44B0BF9229CA /* IQToolbar.m */,
+				B526AAD2F5D7DC2C03EDD1AAC0D6EDDB /* IQUIView+IQKeyboardToolbar.h */,
+				A9E1BDF478CD6F884AFFAD2CAABA80F2 /* IQUIView+IQKeyboardToolbar.m */,
+			);
+			name = IQToolbar;
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E901CBCFB90282445DF0864BC5C25F9E /* IQKeyboardManager.bundle */ = {
+			isa = PBXGroup;
+			children = (
+				75588D678930CABB39E0CEA18BCE9576 /* IQButtonBarArrowDown@2x.png */,
+				D63E8763F7BDEDBA0639E6169F996EBA /* IQButtonBarArrowDown@3x.png */,
+				7916A731DBC87798C2780D1E12A66966 /* IQButtonBarArrowLeft@2x.png */,
+				542DF80A92C99ECB9F635DC45D568DCF /* IQButtonBarArrowLeft@3x.png */,
+				BA1F8CD0276361A72ACD142E0F7DFB4A /* IQButtonBarArrowRight@2x.png */,
+				57574A6BD77DED9DFCD82A79EC4AFBA5 /* IQButtonBarArrowRight@3x.png */,
+				C0BD202C4405D1B63E29D034E31D46E4 /* IQButtonBarArrowUp@2x.png */,
+				11A9AF97FA93503A711A7125B76FD400 /* IQButtonBarArrowUp@3x.png */,
+			);
+			name = IQKeyboardManager.bundle;
+			path = IQKeyboardManager.bundle;
+			sourceTree = "<group>";
+		};
+		FA93D435392B7702398201DBF8A76873 /* ZBNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				013B5E677B240E3C8DB4BA96AFAAFFD5 /* ZBNetworking.h */,
+				4C2E2355884D36C3A40DFE544FE6ADE1 /* ZBNetworking.m */,
+				B08E3C82FB1B2C810F6EB3CD7C71E0AA /* Cache */,
+			);
+			name = ZBNetworking;
+			path = ZBNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8C870D73A164C13327010EE40DC366 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874F21EC1AB3B2DDE6625A4E63885D29 /* common_api.h in Headers */,
+				4D6DDD70E1CC04156D7D4C3FF1FACAFF /* common_center.h in Headers */,
+				79C10CF39EA160921BD1CF5FC6BAAC89 /* common_colorAndFontPanel.h in Headers */,
+				47D1492407901FA5FD1AA1C0CD4B85FD /* common_enum.h in Headers */,
+				F1EF61A2550DBF6D8A853B13E331C38F /* FSPageContentView.h in Headers */,
+				8C414D5183640D078002DFA32CE0066A /* FSScrollContentView.h in Headers */,
+				A69EA99AD9EB16200C49B02991384A4B /* FSSegmentTitleView.h in Headers */,
+				4FD704D95E6FFAACCF6CA2E10FE0A5CA /* ImageResizer.h in Headers */,
+				88D6FB9954044D0AE5B4B32773F60B24 /* IQBarButtonItem.h in Headers */,
+				B696C398AE9E0EBB0D61A141D71797DB /* IQKeyboardManager.h in Headers */,
+				57497576FEF98468BCA7742E3424D342 /* IQKeyboardManagerConstants.h in Headers */,
+				225378DC8992BB7C0EF45D87EC819FBC /* IQKeyboardManagerConstantsInternal.h in Headers */,
+				2D791211B683CA70489E74465023F472 /* IQKeyboardReturnKeyHandler.h in Headers */,
+				1612CE0DA073A3641AF604DC8FBB8D96 /* IQNSArray+Sort.h in Headers */,
+				C22ECE197AE51C9E2EACFB9B61DB743B /* IQPreviousNextView.h in Headers */,
+				6BD7A866DC285E7E7D331DC288036B65 /* IQTextView.h in Headers */,
+				FB7077DB44B48F8760E96D6F9C6F6A62 /* IQTitleBarButtonItem.h in Headers */,
+				7A2F5DE0F5B707A54A01B6E275E9F8B2 /* IQToolbar.h in Headers */,
+				B26733E6AC9D4EF228FD6BB5F13B44DF /* IQUIScrollView+Additions.h in Headers */,
+				C0BAB94A932350CB716CD87ABA484212 /* IQUITextFieldView+Additions.h in Headers */,
+				C4668170E5961186453A17F3BEF744F7 /* IQUIView+Hierarchy.h in Headers */,
+				7239965189AD2563B0F267AAF2D2D0A1 /* IQUIView+IQKeyboardToolbar.h in Headers */,
+				30344AA74BC7B16C28B52457B1C5E34B /* IQUIViewController+Additions.h in Headers */,
+				609CE85FA71AB3718814B446057DCA20 /* IQUIWindow+Hierarchy.h in Headers */,
+				E5CC54D11C3EFFD03522D3BEBA5BB609 /* NSDictionary+EHDisposeData.h in Headers */,
+				3BF103A2E6BE9C6201FDC25D29F2395D /* NSString+MD5.h in Headers */,
+				93632394AC0FF54DE18151F7B255AAD1 /* UIColor+Hex.h in Headers */,
+				E42CFE1C4EF9D4FE12071FECF055C0E0 /* UIImage+ColorImage.h in Headers */,
+				61631C226811739A50E96E128D2A9C1E /* UILabel+BaseLines.h in Headers */,
+				02322C59838F094EA96EB59E7D44E7BD /* UILabel+PhotoAndText.h in Headers */,
+				D1F0E9E54B127D3F30EABB38D1A743FC /* UIView+Corners.h in Headers */,
+				35CFA428F212007D1C721E7FD9077E3C /* wp_common_sdks-umbrella.h in Headers */,
+				99468E11EE1403178D39BEB489DF7DC0 /* ZBCacheManager.h in Headers */,
+				84D832539C6345F675D63D86B52CFDAB /* ZBDiskCache.h in Headers */,
+				C1EE45F701559A2E8787141BA82E4223 /* ZBLRUManager.h in Headers */,
+				E1755659193E3F35997C2E63DAD3D3E5 /* ZBMemoryCache.h in Headers */,
+				333676824871C55EA9528E355F27262B /* ZBNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E844EEEC8C9DA5672B42D1A794496D51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433C06F115B161609AC365607CB853A9 /* Pods-wp_common_sdks_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1EAB0F74D09D37D9AD459EBC29E362B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1564CDDDC8A8634AA1BD914E4FCF5F7B /* Pods-wp_common_sdks_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		43BAE616AA11C254FA8BB8E22C150949 /* Pods-wp_common_sdks_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22DCD6B5AF828F2FC9A1F5F64D5E553 /* Build configuration list for PBXNativeTarget "Pods-wp_common_sdks_Tests" */;
+			buildPhases = (
+				F1EAB0F74D09D37D9AD459EBC29E362B /* Headers */,
+				9B248A4FEA6B2C15FDCBC2AE08436F20 /* Sources */,
+				18FC8E3E116BF739A0B4AF332EB86946 /* Frameworks */,
+				FC5AC89466061A306FACE2768A9BB9F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1553B8516904B10F1279ACE9F0DFC1B4 /* PBXTargetDependency */,
+				C46038E25AE2EC76432566FCF41EE2A0 /* PBXTargetDependency */,
+			);
+			name = "Pods-wp_common_sdks_Tests";
+			productName = "Pods-wp_common_sdks_Tests";
+			productReference = 39EE35DDEBCACC469A26804932679B3C /* Pods_wp_common_sdks_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E03510651359BAFF984AF07D4AA9981E /* wp_common_sdks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F922839A5C8BAE3473F0BB75483E0E8 /* Build configuration list for PBXNativeTarget "wp_common_sdks" */;
+			buildPhases = (
+				8C8C870D73A164C13327010EE40DC366 /* Headers */,
+				C2DDA9BA8A848F93404F4AD3828A58DF /* Sources */,
+				F3EA0E0C241B8FC97B38E08DB11E77BF /* Frameworks */,
+				E60A7EA25054BD11700950D80A8A7313 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wp_common_sdks;
+			productName = wp_common_sdks;
+			productReference = 45FDEFF9157AB0DA024B2CE9AE04088D /* wp_common_sdks.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3D824364F2D68B080B4B22F20F443D9 /* Pods-wp_common_sdks_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94650E7E4DEF9E24FDFF6C836F31EB6F /* Build configuration list for PBXNativeTarget "Pods-wp_common_sdks_Example" */;
+			buildPhases = (
+				E844EEEC8C9DA5672B42D1A794496D51 /* Headers */,
+				8DE83E3CDA77B4C45DAAC7198C70CE4B /* Sources */,
+				53387ECB129BBC9FD1A8B30CC71261CF /* Frameworks */,
+				FE1920AE5A052CD0532B5BEDB191336D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5164864B11DAD79C2877BC13B6589425 /* PBXTargetDependency */,
+			);
+			name = "Pods-wp_common_sdks_Example";
+			productName = "Pods-wp_common_sdks_Example";
+			productReference = 575C0F56AF884E89D17AD9E35FBEE991 /* Pods_wp_common_sdks_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 57D91DFE3B66362CD5C8D44D66228E1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				E3D824364F2D68B080B4B22F20F443D9 /* Pods-wp_common_sdks_Example */,
+				43BAE616AA11C254FA8BB8E22C150949 /* Pods-wp_common_sdks_Tests */,
+				E03510651359BAFF984AF07D4AA9981E /* wp_common_sdks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E60A7EA25054BD11700950D80A8A7313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5AC89466061A306FACE2768A9BB9F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1920AE5A052CD0532B5BEDB191336D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DE83E3CDA77B4C45DAAC7198C70CE4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE645EB59A74CB742F7B32D2C6FB89CC /* Pods-wp_common_sdks_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B248A4FEA6B2C15FDCBC2AE08436F20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A784794235465C7BCAD214B26E0CFA98 /* Pods-wp_common_sdks_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2DDA9BA8A848F93404F4AD3828A58DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8091B72C312AD4EE0C56E184500DD4 /* FSPageContentView.m in Sources */,
+				C54ACE957D3DEE8329F7E39F784D7E34 /* FSSegmentTitleView.m in Sources */,
+				ACDEAC4DCD6B689E761CD881D6CDECA5 /* ImageResizer.m in Sources */,
+				BBCA159EA1D04E230C816B75725F7CBD /* IQBarButtonItem.m in Sources */,
+				269E01165576C4F4BEBD7D057FDE9A3C /* IQButtonBarArrowDown@2x.png in Sources */,
+				AF814D1F441F74746FA114F95BEBA413 /* IQButtonBarArrowDown@3x.png in Sources */,
+				6D43FD6D487B40C9EA06BDFB7250E91C /* IQButtonBarArrowLeft@2x.png in Sources */,
+				6462268C1960A0E617B24CF3F24FC040 /* IQButtonBarArrowLeft@3x.png in Sources */,
+				F7C86864639EA655C3744535F5548647 /* IQButtonBarArrowRight@2x.png in Sources */,
+				46EDF097F236AE509EC140626E6D7795 /* IQButtonBarArrowRight@3x.png in Sources */,
+				08CE37D47D8960D0F283FC10311933BD /* IQButtonBarArrowUp@2x.png in Sources */,
+				E32A46E8DE7D61B0272E8819DFD65FAA /* IQButtonBarArrowUp@3x.png in Sources */,
+				59090BFDF0084CD11C426782F8971212 /* IQKeyboardManager.m in Sources */,
+				5D1862F4809197DB92DA588019C6210E /* IQKeyboardReturnKeyHandler.m in Sources */,
+				6D8DCD22E757F3C34D1D880C49EDAECA /* IQNSArray+Sort.m in Sources */,
+				1901CE32466DF50227326DF1A2230325 /* IQPreviousNextView.m in Sources */,
+				A04B047ED461FFE3C7E6D2C137193CD4 /* IQTextView.m in Sources */,
+				438D2379E953A971E5ADD0C19CC13C55 /* IQTitleBarButtonItem.m in Sources */,
+				65B776DD6C63FE24B9E5BFE780C0ED80 /* IQToolbar.m in Sources */,
+				E985988A3B63097BF880C737B05416F6 /* IQUIScrollView+Additions.m in Sources */,
+				F86AA1B523A3A6B387C7D88D5C6437E9 /* IQUITextFieldView+Additions.m in Sources */,
+				F436EB4B970A9802EA79C3ED652149F6 /* IQUIView+Hierarchy.m in Sources */,
+				E54A2BFC83B1AADEE22FDA47D2325E2F /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				86BC07B108D98913707F2C8467287F3C /* IQUIViewController+Additions.m in Sources */,
+				97A585F180967431F5FC8AC4757F85EA /* IQUIWindow+Hierarchy.m in Sources */,
+				E3335763DF67ABCCD4EF6D5BA7C38DD3 /* LICENSE.md in Sources */,
+				74CE8D4F29AD4B5D3664FF4F12204757 /* NSDictionary+EHDisposeData.m in Sources */,
+				93F439B506B8134FA95EC72215050C0C /* NSString+MD5.m in Sources */,
+				7E68428DF6BB36A53611DF872697D43C /* README.md in Sources */,
+				6B71A8D02E7352AD318319F691AB0300 /* UIColor+Hex.m in Sources */,
+				DD82709752D8311F268BD3D89D04C6C5 /* UIImage+ColorImage.m in Sources */,
+				92748897E403087D6DE8B57AB5D3F13F /* UILabel+BaseLines.m in Sources */,
+				A20B516AA4501211E3C8A62641F10533 /* UILabel+PhotoAndText.m in Sources */,
+				0A4DA4F397A7BF9609C5F646C4A27353 /* UIView+Corners.m in Sources */,
+				7D06D1F66884A3087584A7F9E4A63B5E /* wp_common_sdks-dummy.m in Sources */,
+				E2CC77078F73AB6DBB4E0CB7F0154C2F /* ZBCacheManager.m in Sources */,
+				C5C0488EAF438EE5F62BFF47068165DE /* ZBDiskCache.m in Sources */,
+				D507BACDB5A800F75714626D4C5EF2CB /* ZBLRUManager.m in Sources */,
+				422BD32EAC96DC851087DB378D6AFE11 /* ZBMemoryCache.m in Sources */,
+				34915624800FDD4A4B7113321FADBBB7 /* ZBNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1553B8516904B10F1279ACE9F0DFC1B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 80A734CA4BE336C8274939361C889AB5 /* PBXContainerItemProxy */;
+		};
+		5164864B11DAD79C2877BC13B6589425 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = wp_common_sdks;
+			target = E03510651359BAFF984AF07D4AA9981E /* wp_common_sdks */;
+			targetProxy = FA55E2E4F6AB6D862BDE5ABB6D4E361B /* PBXContainerItemProxy */;
+		};
+		C46038E25AE2EC76432566FCF41EE2A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-wp_common_sdks_Example";
+			target = E3D824364F2D68B080B4B22F20F443D9 /* Pods-wp_common_sdks_Example */;
+			targetProxy = E823EAD9B79B30CFB7E8D62EC036B03A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F2A2BA96BBD2E7CC930CCF229250465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB301475B1CAC8B9D09DF7DC5B60D7C1 /* Pods-wp_common_sdks_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-wp_common_sdks_Tests/Pods-wp_common_sdks_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wp_common_sdks_Tests/Pods-wp_common_sdks_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		247D7D81F1316F135B592F61B3DFD904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 885EE1220921F40E2DBE6635024FC0EF /* wp_common_sdks.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/wp_common_sdks/wp_common_sdks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/wp_common_sdks/wp_common_sdks-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/wp_common_sdks/wp_common_sdks.modulemap";
+				PRODUCT_MODULE_NAME = wp_common_sdks;
+				PRODUCT_NAME = wp_common_sdks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FC3EEF4D46A84F0039ACDC30E6774F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 885EE1220921F40E2DBE6635024FC0EF /* wp_common_sdks.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/wp_common_sdks/wp_common_sdks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/wp_common_sdks/wp_common_sdks-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/wp_common_sdks/wp_common_sdks.modulemap";
+				PRODUCT_MODULE_NAME = wp_common_sdks;
+				PRODUCT_NAME = wp_common_sdks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42579DD71D909ECF4469B64DD9CE954A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 381BB6AAD5A2B1B021B968AB46224246 /* Pods-wp_common_sdks_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-wp_common_sdks_Example/Pods-wp_common_sdks_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wp_common_sdks_Example/Pods-wp_common_sdks_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6981B49048575F8238B3C5B905C918E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		981F3D99027B43FD24FFBB8A377C6E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23318BE53D3A9E958A22DB6CA4BDB1A9 /* Pods-wp_common_sdks_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-wp_common_sdks_Tests/Pods-wp_common_sdks_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wp_common_sdks_Tests/Pods-wp_common_sdks_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A706EC52E457EE17929F89AD096EE19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A5E494A4269E35BB746F1762D4B050F /* Pods-wp_common_sdks_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-wp_common_sdks_Example/Pods-wp_common_sdks_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wp_common_sdks_Example/Pods-wp_common_sdks_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE252C6C51286892441EE171776C7E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F922839A5C8BAE3473F0BB75483E0E8 /* Build configuration list for PBXNativeTarget "wp_common_sdks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC3EEF4D46A84F0039ACDC30E6774F8 /* Debug */,
+				247D7D81F1316F135B592F61B3DFD904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94650E7E4DEF9E24FDFF6C836F31EB6F /* Build configuration list for PBXNativeTarget "Pods-wp_common_sdks_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42579DD71D909ECF4469B64DD9CE954A /* Debug */,
+				A706EC52E457EE17929F89AD096EE19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE252C6C51286892441EE171776C7E81 /* Debug */,
+				6981B49048575F8238B3C5B905C918E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22DCD6B5AF828F2FC9A1F5F64D5E553 /* Build configuration list for PBXNativeTarget "Pods-wp_common_sdks_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F2A2BA96BBD2E7CC930CCF229250465 /* Debug */,
+				981F3D99027B43FD24FFBB8A377C6E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

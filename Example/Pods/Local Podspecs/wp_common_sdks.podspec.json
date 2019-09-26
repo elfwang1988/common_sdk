@@ -1,0 +1,22 @@
+{
+  "name": "wp_common_sdks",
+  "version": "0.1.0",
+  "summary": "A short description of wp_common_sdks.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/elfwang1988/wp_common_sdks",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "elfwang1988": "976181090@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/elfwang1988/wp_common_sdks.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "wp_common_sdks/Classes/**/*"
+}
